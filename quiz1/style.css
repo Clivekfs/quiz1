@@ -1,0 +1,34 @@
+head {
+    font : Georgia;
+}
+
+body {
+    font: Georgia;
+    background-color :rgb(222, 232, 248);
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;  
+    font: 'Times new roman';
+  }
+
+  p {
+    font: Georgia;
+    font-size: 20px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
